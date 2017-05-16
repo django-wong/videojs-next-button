@@ -12,10 +12,10 @@ Usage
 			'children': [
 				// other components...
 				{
-                    'name': 'nextButton',
-                    'next': 'https://www.baidu.com'
-                },
-                // other components
+					'name': 'nextButton',
+					'next': 'https://www.baidu.com'
+				},
+				// other components
 			]
 		}
 	});
