@@ -1,0 +1,55 @@
+{
+  "name": "videojs-next-button",
+  "version": "0.0.1",
+  "description": "A videojs plugin to display a next button in the control bar",
+  "main": "dist/videojs-next-button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/django-wong/videojs-next-button.git"
+  },
+  "keywords": [
+    "videojs"
+  ],
+  "author": "Django Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/django-wong/videojs-next-button/issues"
+  },
+  "homepage": "https://github.com/django-wong/videojs-next-button#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-less": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "impliedStrict": false,
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": false
+      }
+    },
+    "globals": {
+      "videojs": true
+    },
+    "rules": {
+      "no-console": "warn",
+      "no-unused-vars": "warn"
+    }
+  }
+}
