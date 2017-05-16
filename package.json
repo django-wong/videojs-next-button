@@ -1,6 +1,6 @@
 {
   "name": "videojs-next-button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A videojs plugin to display a next button in the control bar",
   "main": "dist/videojs-next-button.js",
   "scripts": {

@@ -3,8 +3,8 @@
 /*
 * @Author: Django Wong
 * @Date:   2017-05-17 01:09:22
-* @Last Modified by:   DjangoWong
-* @Last Modified time: 2017-05-17 03:07:17
+* @Last Modified by:   Django Wong
+* @Last Modified time: 2017-05-17 03:46:01
 * @File Name: videojs-next-button.js
 */
 
@@ -35,7 +35,7 @@
 				default:
 					break;
 			}
-			this.player.trigger('on-next-button-click');
+			this.player().trigger('on-next-button-click', next);
 		}
 	});
 
